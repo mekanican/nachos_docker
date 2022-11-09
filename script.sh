@@ -33,9 +33,9 @@ else
 
     cd /tmp
     git clone https://$API_KEY@github.com/vanloc1808/HCMUS-Operating-Systems
-    mv ./HCMUS-Operating-Systems/* /home/project/nachos/
-    mv ./HCMUS-Operating-Systems/.git /home/project/nachos/
-    mv ./HCMUS-Operating-Systems/.gitignore /home/project/nachos/
+    cp -rlf ./HCMUS-Operating-Systems/* /home/project/nachos/
+    cp -rlf ./HCMUS-Operating-Systems/.git /home/project/nachos/
+    cp -rlf ./HCMUS-Operating-Systems/.gitignore /home/project/nachos/
 
     cd /home/project/nachos
 
