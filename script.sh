@@ -14,11 +14,6 @@ else
     git config --global user.name "$USERNAME"
     git config --global user.email "$EMAIL"
 
-    tar zxvf nachos_40.tar.gz
-    tar zxvf mips-decstation.linux-xgcc.gz
-    tar zxvf nachos-gcc.diff.gz
-    patch -p0 < nachos-gcc.diff
-
     rm *.gz
     rm *.diff
 
