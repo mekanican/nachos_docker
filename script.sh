@@ -14,6 +14,7 @@ else
     git config --global user.name "$USERNAME"
     git config --global user.email "$EMAIL"
 
+    tar zxvf mips-decstation.linux-xgcc.gz
     rm *.gz
     rm *.diff
 
